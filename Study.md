@@ -26,19 +26,31 @@ Browser Compatibility References:
 1. What is Ajax? What advantages and disadvantages does it brings?
 
    ```
-   Please write your answer here.
+   some of the advantages are:
+   
+   due to it not having to refresh the entire page. It is faster
+   
+   asychronous calls can be made making it so the client isn't forced to wait for the entire page to load. Again speeding up the user experience.
+   
+   
+   one disadvantage is that it requires javascript and so if it is disabled then it cannot work.
+   
+   harder to debug if there are issues
    ```
 
 2. Explain the differences between XMLHttpRequest, Fetch and Axios.
 
    ```
-   Please write your answer here.
+   syntax for how it is written naturally. Also xml has the ability to reveal a progress bar for file uploads.
+   xml also has the ability to timeout whilst fetch does not.
+   
+   axios has backwards compatibility
+   
    ```
 
 3. Which of the three has the poorest browser support - XMLHttpRequest (XHR), Fetch and Axios?
 
-   ```
-   Please write your answer here.
+   ```Fetch has the poorest support due to IE not working with it unless you bypass the issue. Also any other browser behind 2017.
    ```
 
 ### Response Guidelines
