@@ -50,7 +50,8 @@ Browser Compatibility References:
 
 3. Which of the three has the poorest browser support - XMLHttpRequest (XHR), Fetch and Axios?
 
-   ```Fetch has the poorest support due to IE not working with it unless you bypass the issue. Also any other browser behind 2017.
+   ```
+   Fetch has the poorest support due to IE not working with it unless you bypass the issue. Also any other browser behind 2017.
    ```
 
 ### Response Guidelines
